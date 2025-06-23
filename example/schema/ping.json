@@ -1,0 +1,13 @@
+{
+  "$id": "https://example.com/ping.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ping",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "The ID of the ping"
+    }
+  },
+  "required": ["id"]
+}
